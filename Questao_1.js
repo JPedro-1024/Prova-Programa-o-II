@@ -33,7 +33,7 @@ mostrando que seu código funciona conforme os requisitos da função
 (funcionalidades ou “coisas que se deseja que a função faça”), descritos aqui.
 */
 
-function meuSlice(array, inicio, fim) {
+function minhaSlice(array, inicio, fim) {
     let resultado = [];
     for (let i = 0; i < array.length; i++) {
         if (typeof array[i] !== "number") {
